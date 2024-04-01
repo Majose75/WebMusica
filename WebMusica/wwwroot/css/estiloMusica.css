@@ -1,11 +1,19 @@
 ﻿/* Resetear todos los estilos del navegador */
 *{
         margin: 0;
-        padding: 0; /* Relleno entre contenido y borde */
-        
+        padding: 0; /* Relleno entre contenido y borde */       
 }
-
 /* Header*/
+.fondogrupos {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    background-image: url('../img/fondogrupos.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
 .masthead {
     padding-top: 10.5rem;
     padding-bottom: 6rem;
@@ -17,7 +25,6 @@
     background-position: center center;
     background-size: cover;
 }
-
     header.masthead .masthead-subheading {
         font-size: 1.5rem;
         font-style: italic;
@@ -25,7 +32,6 @@
         margin-bottom: 25px;
         font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
-
     header.masthead .masthead-heading {
         font-size: 3.25rem;
         font-weight: 700;
@@ -33,8 +39,6 @@
         margin-bottom: 2rem;
         font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
-
-
 
 /* Menú de Navegación */
 
