@@ -1,0 +1,266 @@
+﻿/* Resetear todos los estilos del navegador */
+*{
+        margin: 0;
+        padding: 0; /* Relleno entre contenido y borde */
+        
+}
+
+/* Header*/
+.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url('../img/6037288.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+    header.masthead .masthead-subheading {
+        font-size: 1.5rem;
+        font-style: italic;
+        line-height: 1.5rem;
+        margin-bottom: 25px;
+        font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    header.masthead .masthead-heading {
+        font-size: 3.25rem;
+        font-weight: 700;
+        line-height: 3.25rem;
+        margin-bottom: 2rem;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+
+
+/* Menú de Navegación */
+
+.navbar {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(109,109,113,0) 54%, rgba(175,178,179,0.7231267507002801) 100%);
+}
+
+.nav-link, .navbar-brand {
+    color: #fff;
+
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+        color: plum;
+    }
+
+.navbar-collapse {
+    justify-content: flex-end;
+    
+}
+
+/*
+.nav-link:active {
+    color: yellowgreen;
+}
+
+.nav-link:visited {
+    color: red;
+}
+  */  
+
+
+
+/* unvisited link 
+a:link {
+    color: green;
+}
+
+/* visited link 
+a:visited {
+    color: green;
+}
+
+/* mouse over link 
+a:hover {
+    color: red;
+}
+
+ selected link 
+a:active {
+    color: yellow;
+}
+*/
+    
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+}
+
+        header.masthead .masthead-subheading {
+            font-size: 2.25rem;
+            font-style: italic;
+            line-height: 2.25rem;
+            margin-bottom: 2rem;
+        }
+
+        header.masthead .masthead-heading {
+            font-size: 4.5rem;
+            font-weight: 700;
+            line-height: 4.5rem;
+            margin-bottom: 4rem;
+        }
+        .card-title{
+            font-size: 1.3rem;
+        }
+}
+
+.tarjetas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    
+}
+
+/* OTRO CARRUSEL*/
+.carousel-item {
+    width: 100%;
+    height: fit-content ;/*400px; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    
+
+}
+
+
+.carousel-inner {
+    background-position: center center;
+    border-radius: 13px;
+    
+}
+
+/* @media (max-width: 600px) {
+    .carousel-item {
+       height: fit-content;
+       
+    }
+
+}*/
+
+/* Sobre el Grupo de musica */
+.fondo {
+    padding: 4em 0;
+   
+}
+
+.team {
+    color: #5e5e55;
+    padding: 0 180px;
+}
+
+    .team .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+
+    .team .card {
+        background: none;
+        border: none;
+    }
+
+    .team .card-title {
+        font-size: 1.3rem;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+
+    /* Tabla discos */
+.disco {
+    width: 50%;
+    align-self:center;
+    border:solid 1px;
+    border-radius: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+img.disco:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+
+table {
+    table-layout: fixed;
+    width: 800px;
+}
+
+th, td {
+    width: 200px;
+    
+    word-wrap: break-word;
+}
+
+.fuzzy-bubbles {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 1px 3px rgba(0,0,0,0.29);
+}
+.formatoTabla {
+    background-color: RGBA(170,136,255,0.15);
+    margin: 0 auto;
+    box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.75);
+    border-radius: 5%;
+}
+th{
+    height:50px;
+}
+
+p.container{
+    margin-top:10px;
+    font-size:3em;
+}
+.miembros {
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    color: blueviolet;
+    text-shadow: 2px 1px 3px rgba(0,0,0,0.29);
+    background-color:lavender;
+}
+
+.header {
+    color: mediumpurple;
+    font-size: 27px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+
+.formulario {
+    margin: 0 auto;
+    box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 10px 10px 16px 0px rgba(0,0,0,0.25);
+    border-radius: 2%;
+}
+.btn {
+    background-color:darkmagenta;
+    border-color:darkmagenta;
+
+}
+    .btn:hover {
+        background-color: mediumorchid;
+        
+    }
